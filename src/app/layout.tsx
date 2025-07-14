@@ -3,7 +3,7 @@ import "./globals.css";
 import 'animate.css/animate.min.css';
 import Navbar from "./Components/Navbar";
 import {  Poppins,  Montserrat } from 'next/font/google';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Next Food App",
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
      {children}
    
         <Footer dynamicContent="Your dynamic content here" />
-
+ <SpeedInsights />
       </body>
     </html>
   );
