@@ -110,7 +110,7 @@ nav {
   top: -100px;
   right: -170px;
   z-index: -2;
-  max-width: 700px;
+  max-width:none;
   overflow: hidden;
 }
 
